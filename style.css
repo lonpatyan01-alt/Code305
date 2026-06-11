@@ -1,0 +1,25 @@
+
+/* Minimal style file for offline package. The original index.html includes inline styles; this is optional. */
+body { 
+  height: 100vh;
+  width: 100vw;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-base);
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+  display: flex;
+  flex-direction: column; /* موبائل پر ڈیفالٹ کالم ترتیب */
+  overflow: hidden; /* غیر ضروری اسکرول ختم */
+  
+  /* ایڈوانس آپٹیمائزیشن */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  user-select: none; /* تاکہ ایڈیٹر استعمال کرتے وقت ٹیکسٹ غلطی سے سلیکٹ نہ ہو */
+  -webkit-tap-highlight-color: transparent;
+  
+  /* بیک گراؤنڈ پر ہلکا سا گریڈینٹ جو اسے "پریمیم" بنائے گا */
+  background-image: radial-gradient(circle at top right, rgba(88, 166, 255, 0.05), transparent);
+
+}

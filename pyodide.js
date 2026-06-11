@@ -1,0 +1,2 @@
+/* Placeholder pyodide - heavy binary; replace with official pyodide bundle if you need Python in-browser */
+console.warn('Pyodide placeholder. Replace pyodide/pyodide.js with official pyodide distribution to run Python.');
