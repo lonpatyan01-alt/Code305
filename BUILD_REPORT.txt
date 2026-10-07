@@ -1,0 +1,10 @@
+Code305 Ultra package verification
+==================================
+Source lines: 12098
+Source bytes: 414066
+PWA manifest: yes
+Service worker: yes
+Install prompt: yes
+Offline cache seed URLs: 49
+Icons: 192x192, 512x512
+Launcher: Windows + macOS/Linux
